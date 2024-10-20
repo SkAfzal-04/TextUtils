@@ -1,0 +1,58 @@
+.dark{
+  background-color: #1f2327;
+  color:azure;
+}
+/* .themes{
+  text-align: center;
+  border-radius: 100%;
+  padding: 0px;
+  width: 28px;
+  height: 37px;
+  width: 24px;
+  height: 24px;
+  margin: -3px;
+}
+.blue{
+  background-color: rgb(10, 10, 71);
+  border: 1px solid rgb(15, 15, 102);
+}
+.green{
+  background-color: rgb(12, 76, 48);
+  border: 1px solid rgb(17, 100, 64);
+  margin-right: 5px;
+} */
+.inputArea{
+  background-color: red;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  color: transparent;
+}
+.form-group{
+  position: relative;
+}
+.blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  color: black;
+  z-index: 2;
+  padding: 8px;
+  pointer-events: none;
+  filter: blur(5px); 
+}
+
+
+h1,p,h2,h3{
+  text-align: center;
+}
+button{
+  margin: 4px 4px 4px 4px;
+}
+.btn-container{
+width: 100%;
+text-align: center;
+}
